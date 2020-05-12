@@ -1,0 +1,156 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: blue; */
+}
+
+.section-1 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: #eb6383;
+  top: 0;
+  left: 0;
+}
+
+.section-2 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: #c3edea;
+  /* top: 100px; */
+  left: 0;
+}
+
+.section-3 {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: #202040;
+  /* top: 100px; */
+  left: 0;
+}
+
+
+.section-1 .main-heading {
+  position: absolute;
+  top: 50px;
+  left: 21%;
+  color: green;
+  font-size: 50px;
+  letter-spacing: 50px;
+  text-transform: uppercase;
+}
+
+.section-1 a {
+  position: absolute;
+  left: 45%;
+  top: 200px;
+  display: inline-block;
+  /* border: 5px solid black; */
+  text-decoration: none;
+  background-color: #4CAF50;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  /* height: 50px; */
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  color: black;
+  transition: background-color 0.4s;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.section-1 a:hover {
+  background-color: rgb(30, 36, 27);
+  color: white;
+}
+
+
+.section-2 .my-img {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  border-radius: 100%;
+  transition: opacity .4s;
+}
+
+.section-2 .my-img:hover {
+  opacity: 0.5;
+}
+
+.section-2 h2 {
+  position: absolute;
+  text-transform: uppercase;
+  left: 60%;
+  top: 150px;
+  width: 400px;
+  text-align: center;
+  /* letter-spacing: 5px; */
+}
+
+.section-2 p {
+  position: absolute;
+  /* visibility: hidden; */
+  top: 150px;
+  left: 420px;
+  color: white;
+  font-size: 30px;
+}
+
+.section-3 h1 {
+  position: absolute;
+  color: aliceblue;
+  bottom: 0;
+  left: 35%;
+  text-transform: uppercase;
+}
+
+.section-3 a {
+  position: absolute;
+  display: inline-block; 
+  text-decoration: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  transition: all .4s;
+}
+
+.section-3 a.btn-1 {
+  background-color: #08f7fe;
+  top: 100px;
+  left: 300px;
+  padding: 10px;
+}
+
+.section-3 a.btn-2 {
+  background-color: #08f7fe;
+  top: 100px;
+  left: 700px;
+  padding: 10px;
+}
+
+.section-3 a.btn-3 {
+  background-color: #08f7fe;
+  top: 100px;
+  left: 1100px;
+  padding: 10px;
+}
+
+.section-3 hr {
+  position: absolute;
+  color: white;
+  top: 250px;
+  left: 690px;
+  width: 50%;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 10px;
+  width: 150px;
+}
+
+.section-3 a:hover {
+  background-color: #33135c;
+  border: 1px solid #08f7fe;
+  color: #08f7fe;
+}
